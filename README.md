@@ -1,2 +1,5 @@
-# 17.7-tecDAD
-TEC-1 IO Control with DAC-ADC – Drive tape and vinyl players, etc.
+# tec-ACDC
+
+TEC-1 DAC-ADC 
+
+Applied to magnetic tape and vinyl disk.
