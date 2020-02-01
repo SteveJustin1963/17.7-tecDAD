@@ -1,5 +1,5 @@
 # tec-ACDC
 
-TEC-1 DAC-ADC 
+TEC-1 io DAC-ADC add on 
 
-Applied to magnetic tape and vinyl disk.
+
