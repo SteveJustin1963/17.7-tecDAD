@@ -1,8 +1,9 @@
 # tec-ACDC
 
-TEC-1 io DAC-ADC add on 
 
+
+
+the o/p for DAC fed into CRT driver cct;
 https://easyeda.com/editor#id=89e45a1c31a44702ab1ef81ac46d8552
 
-
-play with ADC0809
+ADC; eg ADC0809
