@@ -1,9 +1,9 @@
  
 
+- DAC0808
+- ADC0809
 
-
-
-the o/p of DAC0808 fed into CRT driver cct; or into CRO
+eg, dac CRT driver cct; or into CRO
 https://easyeda.com/editor#id=89e45a1c31a44702ab1ef81ac46d8552
 
-ADC; eg ADC0809
+
