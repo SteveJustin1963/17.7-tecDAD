@@ -70,7 +70,7 @@ ADC0809 is a CMOS process 8-channel, 8-bit successive approximation A / D conver
 3. To increase the speed of a CNC machine by converting analogue signals into digital signals.
 4. To allow a CNC machine to be controlled by a computer program.
 
-### Digital Signal Processors (DSPs) 
+### Digital Signal Processors (DSPs) this is huge
 
 The ADC can feed into special purpose microprocessors DSPs. This is where digital advantages take off. https://en.wikipedia.org/wiki/Digital_signal_processing They are used in every form of electronic product, from mobile phones and CD players to the automotive industry; medical imaging systems to the electronic battlefield and from dishwashers to satellites. Even the common optical mouse uses DSP. The DSP detects patterns in the images and examines how the patterns have moved since the previous image. Based on the change in patterns over a sequence of images, the DSP determines how far the mouse has moved and sends the corresponding coordinates to the computer. This feature can be extended into aerial videography to tell a drone how far its moved over a land image, or how much closer its to a target. 
 
