@@ -1,4 +1,4 @@
-### ADC ADC0809
+### ADC ADC0809 - input
 tec times (issue 16) page 26 https://github.com/SteveJustin1963/tec-BOOKS/blob/master/TE/Mag/tec_times_1990_03.pdf only a circit is shown , no notes on use or code.
  
 ![](https://github.com/SteveJustin1963/tec-ADC-DAC/blob/master/pics/cct1.png)
@@ -47,12 +47,33 @@ ADC0809 is a CMOS process 8-channel, 8-bit successive approximation A / D conver
 19. To convert an audio tape signal from analogue to digital form
 20. To convert a video tape signal from analogue to digital form
 
+### uses for an  analogue to digital converter with robotics
 
+1. To control a robotic arm
+2. To read data from sensors
+3. To interface with a computer
+4. To control a motor
+5. To read a switch position
  
- 
- 
+### uses for an  analogue to digital converter with neural biology
 
-### DAC DAC0808
+1. Measuring and recording electrical activity in neurons
+2. Measuring and recording neurotransmitter levels
+3. Measuring and recording electrical activity in the brain
+4. Measuring and recording blood flow in the brain
+5. Measuring and recording electrical activity in muscles
+ 
+### analogue to digital converter with cnc equipment
+
+1. To convert an analogue signal from a CNC machine into a digital signal that can be read by a computer.
+2. To improve the accuracy of a CNC machine by converting analogue signals into digital signals.
+3. To increase the speed of a CNC machine by converting analogue signals into digital signals.
+4. To allow a CNC machine to be controlled by a computer program.
+
+
+
+
+### DAC DAC0808 - output
 - feed into Cathod Ray Tube, TV etc, via a driver cct, https://easyeda.com/editor#id=89e45a1c31a44702ab1ef81ac46d8552
 - feed into CRO
 
