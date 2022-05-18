@@ -74,6 +74,9 @@ ADC0809 is a CMOS process 8-channel, 8-bit successive approximation A / D conver
 
 The ADC can feed into special purpose microprocessors DSPs. This is where digital advantages take off. https://en.wikipedia.org/wiki/Digital_signal_processing They are used in every form of electronic product, from mobile phones and CD players to the automotive industry; medical imaging systems to the electronic battlefield and from dishwashers to satellites. Even the common optical mouse uses DSP. The DSP detects patterns in the images and examines how the patterns have moved since the previous image. Based on the change in patterns over a sequence of images, the DSP determines how far the mouse has moved and sends the corresponding coordinates to the computer. This feature can be extended into aerial videography to tell a drone how far its moved over a land image, or how much closer its to a target. Or help a simple robot see movement without to much image detail, for tracking or gesture recognition. 
 
+- Voice control  US516P6 microcontroller 
+It is a voice control module.SU-03T is a low-cost,low-power,small-size offline voice recognition module,which can be quickly applied to smart homes,all kinds of smart home appliances,toys,lamps and other products that require voice control.
+
 
 ### DAC DAC0808 - output
 - feed into Cathode Ray Tube, TV etc, via a driver cct, https://easyeda.com/editor#id=89e45a1c31a44702ab1ef81ac46d8552
