@@ -76,8 +76,9 @@ The ADC can feed into special purpose microprocessors DSPs. This is where digita
 
 
 ### DAC DAC0808 - output
-- feed into Cathod Ray Tube, TV etc, via a driver cct, https://easyeda.com/editor#id=89e45a1c31a44702ab1ef81ac46d8552
+- feed into Cathode Ray Tube, TV etc, via a driver cct, https://easyeda.com/editor#id=89e45a1c31a44702ab1ef81ac46d8552
 - feed into CRO
-
+- to control the needle of a scanning electron microscope
+- 
 
 
