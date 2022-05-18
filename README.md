@@ -2,8 +2,8 @@
 tec times (issue 16) page 26 https://github.com/SteveJustin1963/tec-BOOKS/blob/master/TE/Mag/tec_times_1990_03.pdf only a circit is shown , no notes on use or code.
  
 ![](https://github.com/SteveJustin1963/tec-ADC-DAC/blob/master/pics/cct1.png)
- 
-ADC with a resolution of 8 bits can encode an analog input to one in 256 different levels (28 = 256). The values can represent the ranges from 0 to 255 (i.e. as unsigned integers) or from −128 to 127 (i.e. as signed integer), depending on the application. https://en.wikipedia.org/wiki/Analog-to-digital_converter
+
+Basically an analogue to digital converter takes a snapshot of an analogue voltage at one instant in time and produces a digital output code which represents this analogue voltage. ADC with a resolution of 8 bits can encode an analog input to one in 256 different levels (28 = 256). The values can represent the ranges from 0 to 255 (i.e. as unsigned integers) or from −128 to 127 (i.e. as signed integer), depending on the application. https://en.wikipedia.org/wiki/Analog-to-digital_converter
 An analog-to-digital converter (ADC) is used to convert an analog signal such as voltage to a digital form so that it can be read and processed by a microcontroller. Most microcontrollers nowadays have built-in ADC converters. our tec-1 with a z80 lacks this. 
 
 ADC0809 is a CMOS process 8-channel, 8-bit successive approximation A / D converter manufactured by National Semiconductor. It has an internal 8-channel multiplexer that can latch the decoded signal based on the address code and only one gate of the eight analog input signals for A / D conversion at a time. Is currently the most widely used 8 general-purpose A / D chip. 
@@ -25,6 +25,29 @@ ADC0809 is a CMOS process 8-channel, 8-bit successive approximation A / D conver
 - Vcc: power supply, single + 5V.
 - GND: ground.
  
+ ### uses
+ 1. To convert an audio signal from analogue to digital form
+2. To convert a video signal from analogue to digital form
+3. To convert a telephone signal from analogue to digital form
+4. To convert a data signal from analogue to digital form
+5. To convert a radio signal from analogue to digital form
+6. To convert a microwave signal from analogue to digital form
+7. To convert a satellite signal from analogue to digital form
+8. To convert a wireless signal from analogue to digital form
+9. To convert an optical signal from analogue to digital form
+10. To convert a cable television signal from analogue to digital form
+11. To convert a CCTV signal from analogue to digital form
+12. To convert a computer monitor signal from analogue to digital form
+13. To convert a printer signal from analogue to digital form
+14. To convert a keyboard signal from analogue to digital form
+15. To convert a joystick signal from analogue to digital form
+16. To convert a scanner signal from analogue to digital form
+17. To convert a photocopier signal from analogue to digital form
+18. To convert a facsimile signal from analogue to digital form
+19. To convert an audio tape signal from analogue to digital form
+20. To convert a video tape signal from analogue to digital form
+
+
  
  
  
