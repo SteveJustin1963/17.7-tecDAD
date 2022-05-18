@@ -1,9 +1,17 @@
+ ### ADC DAC0808
+ tec times (issue 16) page 26 https://github.com/SteveJustin1963/tec-BOOKS/blob/master/TE/Mag/tec_times_1990_03.pdf
  
+ 
+ 
+ 
+ 
+### ADC ADC0809
 
-- DAC0808
-- ADC0809
 
-eg, dac CRT driver cct; or into CRO
+### uses
+- dac CRT driver cct; or into CRO
+
+### cct
 https://easyeda.com/editor#id=89e45a1c31a44702ab1ef81ac46d8552
 
 
