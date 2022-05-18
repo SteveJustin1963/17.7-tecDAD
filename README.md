@@ -7,7 +7,26 @@ ADC with a resolution of 8 bits can encode an analog input to one in 256 differe
 An analog-to-digital converter (ADC) is used to convert an analog signal such as voltage to a digital form so that it can be read and processed by a microcontroller. Most microcontrollers nowadays have built-in ADC converters. our tec-1 with a z80 lacks this. 
 
 ADC0809 is a CMOS process 8-channel, 8-bit successive approximation A / D converter manufactured by National Semiconductor. It has an internal 8-channel multiplexer that can latch the decoded signal based on the address code and only one gate of the eight analog input signals for A / D conversion at a time. Is currently the most widely used 8 general-purpose A / D chip. 
-
+1) 8 input channels, 8-bit A / D converter, the resolution is 8 bits.
+2) has a conversion start and stop control.
+3) Conversion time is 100μs (clock is 640kHz), 130μs (clock is 500kHz)
+4) internal structure. ADC0809 is a CMOS monolithic successive approximation A / D converter, the internal structure shown in Figure 13.22, which consists of 8 analog switches, address latch and decoder, comparator, 8-bit switch tree A / D converter Device, successive approximation register, logic control and timing circuit.
+5) ADC0809's external features (pin function)
+- ADC0809 chip has 28 pins, dual in-line package, as shown in Figure 13.23. The following describes each pin function.
+- IN0 ~ IN7: 8 analog inputs.
+- 2-1 ~ 2-8: 8-bit digital output.
+- ADDA, ADDB, ADDC: 3-bit address input lines for gating one of the 8 analog inputs 
+- ALE: Address latch enable signal, input, active high.
+- START: A / D conversion start pulse input, enter a positive pulse (at least 100ns wide) to start (pulse rising edge 0809 reset, falling edge start A / D conversion).
+- EOC: A / D conversion end signal, output, when the A / D conversion is completed, this terminal outputs a high level (during the conversion has been low).
+- OE: Data output enable signal, input, active high. When the A / D conversion is finished, this end input a high level, in order to open the output tri-state gate, the output digital.
+- CLK: clock input. Requirements clock frequency is not higher than 640KHZ.
+- REF (+), REF (-): Reference voltage.
+- Vcc: power supply, single + 5V.
+- GND: ground.
+ 
+ 
+ 
  
 
 ### DAC DAC0808
