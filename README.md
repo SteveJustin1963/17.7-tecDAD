@@ -4,7 +4,7 @@ tec times (issue 16) page 26 https://github.com/SteveJustin1963/tec-BOOKS/blob/m
 ![](https://github.com/SteveJustin1963/tec-ADC-DAC/blob/master/pics/cct1.png)
 
 Basically an analogue to digital converter takes a snapshot of an analogue voltage at one instant in time and produces a digital output code which represents this analogue voltage. ADC with a resolution of 8 bits can encode an analog input to one in 256 different levels (28 = 256). The values can represent the ranges from 0 to 255 (i.e. as unsigned integers) or from −128 to 127 (i.e. as signed integer), depending on the application. https://en.wikipedia.org/wiki/Analog-to-digital_converter
-An analog-to-digital converter (ADC) is used to convert an analog signal such as voltage to a digital form so that it can be read and processed by a microcontroller. Most microcontrollers nowadays have built-in ADC converters. our tec-1 with a z80 lacks this. 
+An analog-to-digital converter (ADC) is used to convert an analog signal such as voltage to a digital form so that it can be read and processed by a microcontroller. Most microcontrollers nowadays have built-in ADC converters. our tec-1 with a z80 lacks this. The ADC on the Arduino is a 10-bit ADC meaning it has the ability to detect 1,024 (2^10) discrete analog levels. 
 
 ADC0809 is a CMOS process 8-channel, 8-bit successive approximation A / D converter manufactured by National Semiconductor. It has an internal 8-channel multiplexer that can latch the decoded signal based on the address code and only one gate of the eight analog input signals for A / D conversion at a time. Is currently the most widely used 8 general-purpose A / D chip. 
 1) 8 input channels, 8-bit A / D converter, the resolution is 8 bits.
@@ -70,7 +70,9 @@ ADC0809 is a CMOS process 8-channel, 8-bit successive approximation A / D conver
 3. To increase the speed of a CNC machine by converting analogue signals into digital signals.
 4. To allow a CNC machine to be controlled by a computer program.
 
+### Digital Signal Processors (DSPs) 
 
+The ADC can feed into special purpose microprocessors DSPs. This is where digital advantages take off. https://en.wikipedia.org/wiki/Digital_signal_processing They are used in every form of electronic product, from mobile phones and CD players to the automotive industry; medical imaging systems to the electronic battlefield and from dishwashers to satellites. Even the common optical mouse uses DSP. The DSP detects patterns in the images and examines how the patterns have moved since the previous image. Based on the change in patterns over a sequence of images, the DSP determines how far the mouse has moved and sends the corresponding coordinates to the computer. This feature can be extended into aerial videography to tell a drone how far its moved over a land image, or how much closer its to a target. 
 
 
 ### DAC DAC0808 - output
