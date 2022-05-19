@@ -5,13 +5,25 @@
 // Display voltage on LCD
 // End
 
-
+// The header file reg51.h contains the definition of all special function registers of 8051
 #include < reg51.h> 
+
+// This header file contains the prototypes of all the functions used for interfacing with the LCD.
 #include "lcd.h"  	 
+
+// This header file contains the prototypes of all the functions used for interfacing with the DS1307 RTC.
 #include "ds1307.h" 
+
+// This header file contains the prototypes of all the functions used for interfacing with the I2C.
 #include "i2c.h"
+
+// This header file contains the prototypes of all the functions used for providing delay.	
 #include "delay.h"
+
+// This header file contains the prototypes of all the functions used for performing various utility functions.
 #include"stdutils.h"
+
+//This header file contains the prototypes of all the standard input/output library functions.
 #include< stdio.h>
 sbit ADDA     =P2^0;  //Address pins for selecting input channels.
 sbit ADDB     =P2^1;
@@ -91,26 +103,10 @@ explain line by line what the above program is doing
 
  
 
-1. #include < reg51.h> 
--The header file reg51.h contains the definition of all special function registers of 8051.
 
-2. #include "lcd.h"  	 
--This header file contains the prototypes of all the functions used for interfacing with the LCD.
 
-3. #include "ds1307.h" 
--This header file contains the prototypes of all the functions used for interfacing with the DS1307 RTC.
 
-4. #include "i2c.h"
--This header file contains the prototypes of all the functions used for interfacing with the I2C.
 
-5. #include "delay.h"
--This header file contains the prototypes of all the functions used for providing delay.
-
-6. #include"stdutils.h"
--This header file contains the prototypes of all the functions used for performing various utility functions.
-
-7. #include < stdio.h>
--This header file contains the prototypes of all the standard input/output library functions.
 
 8. sbit ADDA     =P2^0;  //Address pins for selecting input channels.
 sbit ADDB     =P2^1;
