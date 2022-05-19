@@ -84,4 +84,8 @@ It is a voice control module.SU-03T is a low-cost,low-power,small-size offline v
 - to control the needle of a scanning electron microscope
 - 
 
+### Ref
+- https://microdigisoft.com/microcontroller-8051-interfacing-adc0808-adc0809-with-microcontroller-at89s52/
+- 
+
 
