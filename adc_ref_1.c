@@ -1,3 +1,11 @@
+// Start
+// Initialize ADC
+// Read ADC value
+// Convert ADC value to voltage
+// Display voltage on LCD
+// End
+
+
 #include < reg51.h> 
 #include "lcd.h"  	 
 #include "ds1307.h" 
