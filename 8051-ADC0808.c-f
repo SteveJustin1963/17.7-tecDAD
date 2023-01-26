@@ -54,3 +54,58 @@ void main()
 	}
 }
 
+\\\\\\\\\\\
+
+forth
+
+\ ADC Read
+: ADC-READ
+	\ Data port to input
+	1 C!
+	
+	\ EOC as input
+	1 6 P3 !
+	
+	\ Set ALE, OE, START to 0
+	0 4 P3 !
+	0 7 P3 !
+	0 5 P3 !
+	
+	\ Select Channel 1
+	1 1 P3 ! \ LSB
+	0 2 P3 !
+	0 3 P3 ! \ MSB
+	
+	\ Latch Channel Select/Address
+	1 4 P3 !
+	
+	\ Start Conversion
+	1 5 P3 !
+	
+	\ Set ALE to 0
+	0 4 P3 !
+	
+	\ Set START to 0
+	0 5 P3 !
+	
+	\ Wait for End of Conversion
+	BEGIN
+		1 6 P3 @
+	UNTIL
+	BEGIN
+		0 6 P3 @
+	UNTIL
+	
+	\ Assert Read Signal
+	1 7 P3 !
+	
+	\ Read Data
+	1 C@
+	
+	\ Set OE to 0
+	0 7 P3 !
+	
+	\ Return Data
+	;
+	
+\\\\\\\\\\\\\\\\
