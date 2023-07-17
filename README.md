@@ -29,7 +29,7 @@ general guide
 
 understand ur code: this is a low-level interface to an ADC0808 chip used for reading an analog signal. The values used for various settings are specific to that chip and would not be correct for other devices. So, this code would only work if you have that particular device correctly connected to your microcontroller.
 
-## DAC0808
+## DAC0809
 -tec_times_1990_03.pdf last page
 there is no code in the document
 
