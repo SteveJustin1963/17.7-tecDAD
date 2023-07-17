@@ -1,4 +1,4 @@
-## ADC0808 
+## DAC0808 
 is a commonly used ADC module for projects were an external ADC is required. It is a 28-pin Eight channel 8-bit ADC module. Meaning it can measure up to eight ADC value from 0V to 5V and the precision when voltage reference (Vref –pin 9) is +5V is 19.53mV (Step size).
 
 - https://www.8051projects.net/wiki/ADC0808_Interfacing_Tutorial
@@ -12,7 +12,7 @@ The code also assumes that the functions for LCD display such as `lcd_Init()`, `
 
 The `delay_us()` and `delay_ms()` functions are assumed to be correctly implemented in your "delay.h" and corresponding "delay.c" as well.
 
-## ADC0808 - 8051
+## DAC0808 - 8051
 code for the C language and Forth. 
 
 general guide
